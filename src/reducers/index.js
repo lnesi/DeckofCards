@@ -1,51 +1,14 @@
 import { combineReducers } from 'redux';
-import { SHUFFLE_DECK, DRAW_CARD, SORT_TABLE,DRAW_RANDOM,RESET_DECK } from '../actions';
+import { SHUFFLE_DECK, DRAW_CARD, SORT_TABLE,DRAW_RANDOM,RESET_DECK } from '../actions/types';
+import AbstractCard from '../AbstractCard';
 import _ from 'lodash';
 
-const cardsDefinitionState=
-{
-  	cards:{
-	  	1:{key:1,name:'2'},
-	  	2:{key:2,name:'3'},
-	  	3:{key:3,name:'4'},
-	  	4:{key:4,name:'5'},
-	  	5:{key:5,name:'6'},
-	  	6:{key:6,name:'7'},
-	  	7:{key:7,name:'8'},
-	  	8:{key:8,name:'9'},
-	  	9:{key:9,name:'10'},
-	  	10:{key:10,name:'jack'},
-	  	11:{key:11,name:'queen'},
-	  	12:{key:12,name:'king'},
-	  	13:{key:13,name:'ace'},
-	 },
-	 suites:{
-	 	1:{key:0,name:'clubs'},
-	 	2:{key:14,name:'spades'},
-	 	3:{key:28,name:'hearts'},
-	 	4:{key:42,name:'diamonds'}
-	 }
-  };
 
 
-function createDeck(){
-	let deck=[]
-	for(let i=1;i<=4;i++){
-		for(let j=1; j<14;j++){
-			deck.push({
-				suite:cardsDefinitionState.suites[i],
-				card:cardsDefinitionState.cards[j],
-				value:cardsDefinitionState.suites[i].key+cardsDefinitionState.cards[j].key
-			});
-		}
-	}
-	return deck;
-}
-const initialDeckState={deck:createDeck(),table:[]};
+const initialDeckState={deck:AbstractCard.createDeck(),table:[]};
 
 
-function cardsReducer(state=initialDeckState,action){
-	console.log(action.type,state,action.payload);
+export function cardsReducer(state=initialDeckState,action){
 	switch(action.type){
 		case SHUFFLE_DECK:
 			return {...state,deck:_.shuffle([...state.deck])};
@@ -66,7 +29,6 @@ function cardsReducer(state=initialDeckState,action){
 }
 
 const rootReducer = combineReducers({
-  cardsDefinition: (state)=>cardsDefinitionState,
   cards: cardsReducer
 });
 

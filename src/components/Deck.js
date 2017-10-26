@@ -69,12 +69,12 @@ class Deck extends Component{
 		return (
 			<div className="app-container deck">
 				<div className="container-wrapper">
-					<button className="btn btn-right" onClick={this.onClickShuffle.bind(this)}>Shuffle Deck</button>
+					<button className="btn btn-right btn-shuffle" onClick={this.onClickShuffle.bind(this)}>Shuffle Deck</button>
 					<h2>Deck</h2>
 					{this.renderDrawForm()}
 					<div className="card-holder">
 						{this.props.deck.map((card,i)=>{
-							return <Card card_data={card} onClick={this.onCardClick.bind(this)} key={i}/>
+							return <Card card={card} onClick={this.onCardClick.bind(this)} key={i}/>
 						})}
 					</div>
 				</div>

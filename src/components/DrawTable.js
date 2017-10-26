@@ -11,12 +11,12 @@ class DrawTable extends Component{
 		return(
 			<div className="app-container draw-table">
 				<div className='container-wrapper'>
-					<button className="btn btn-right" onClick={this.onClickSort.bind(this)}>Sort Cards</button>
+					<button className="btn btn-right btn-sort-cards" onClick={this.onClickSort.bind(this)}>Sort Cards</button>
 					<h2>Draw Table:</h2>
 					
 					<div className="card-holder">
 						{this.props.table.map((card,i)=>{
-								return <Card card_data={card}  key={i}/>
+								return <Card card={card}  key={i}/>
 							})}
 					</div>
 				</div>
