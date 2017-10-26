@@ -1,0 +1,251 @@
+body{
+	margin:0;
+	font-family: Arial;
+}
+h2{
+    color: white;
+    margin-left: 20px;
+}
+small{
+    font-weight: normal;
+}
+input.draw_count{
+        width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid red;
+    font-size: 20px;
+}
+.app-wrapper{
+	    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.app-container{
+
+
+	height: 50%;
+	width: 100%;
+}
+
+.draw-table{
+	background-color: green;
+	
+
+}
+.card-holder{
+	padding-left: 80px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    margin-top: 70px;
+    position: absolute;
+}
+.deck{
+	background:black;
+	top:50%;
+		
+	
+}
+.card{
+	display:inline-block;
+	cursor:pointer;
+	width: 100px !important;
+	margin-left: -50px;
+
+}
+.container-wrapper{
+	position:static;
+    display: inline-block;
+    width: 100%;
+}
+.draw-form{
+    color:white;
+    margin-left: 20px;
+}
+.btn{
+    background: white;
+    color: black;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    padding: 5px 20px;
+    border: 1px solid black;
+    
+}
+.btn-right{
+   float:right;
+}
+
+/*
+-------------------------------------------------------------------
+Created with TexturePacker https://www.codeandweb.com/texturepacker
+-------------------------------------------------------------------
+Inline:     <i class="yourspritesname"></i>
+Responsive: <div class="yourspritesname"></div>
+*/
+
+
+.card_10_of_clubs {max-width:208px; max-height:303px; }
+.card_10_of_clubs::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 0.05973715651135006% 0.0657030223390276%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_10_of_clubs::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_10_of_diamonds {max-width:208px; max-height:303px; }
+.card_10_of_diamonds::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 0.05973715651135006% 20.03942181340342%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_10_of_diamonds::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_10_of_hearts {max-width:208px; max-height:303px; }
+.card_10_of_hearts::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 0.05973715651135006% 40.01314060446781%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_10_of_hearts::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_10_of_spades {max-width:208px; max-height:303px; }
+.card_10_of_spades::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 0.05973715651135006% 59.98685939553219%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_10_of_spades::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_2_of_clubs {max-width:208px; max-height:303px; }
+.card_2_of_clubs::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 0.05973715651135006% 79.96057818659658%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_2_of_clubs::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_2_of_diamonds {max-width:208px; max-height:303px; }
+.card_2_of_diamonds::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 0.05973715651135006% 99.93429697766098%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_2_of_diamonds::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_2_of_hearts {max-width:208px; max-height:303px; }
+.card_2_of_hearts::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 12.544802867383513% 0.0657030223390276%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_2_of_hearts::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_2_of_spades {max-width:208px; max-height:303px; }
+.card_2_of_spades::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 25.029868578255677% 0.0657030223390276%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_2_of_spades::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_3_of_clubs {max-width:208px; max-height:303px; }
+.card_3_of_clubs::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 37.51493428912784% 0.0657030223390276%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_3_of_clubs::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_3_of_diamonds {max-width:208px; max-height:303px; }
+.card_3_of_diamonds::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 50% 0.0657030223390276%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_3_of_diamonds::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_3_of_hearts {max-width:208px; max-height:303px; }
+.card_3_of_hearts::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 62.48506571087216% 0.0657030223390276%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_3_of_hearts::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_3_of_spades {max-width:208px; max-height:303px; }
+.card_3_of_spades::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 74.97013142174433% 0.0657030223390276%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_3_of_spades::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_4_of_clubs {max-width:208px; max-height:303px; }
+.card_4_of_clubs::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 87.45519713261649% 0.0657030223390276%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_4_of_clubs::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_4_of_diamonds {max-width:208px; max-height:303px; }
+.card_4_of_diamonds::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 99.94026284348865% 0.0657030223390276%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_4_of_diamonds::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_4_of_hearts {max-width:208px; max-height:303px; }
+.card_4_of_hearts::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 12.544802867383513% 20.03942181340342%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_4_of_hearts::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_4_of_spades {max-width:208px; max-height:303px; }
+.card_4_of_spades::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 12.544802867383513% 40.01314060446781%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_4_of_spades::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_5_of_clubs {max-width:208px; max-height:303px; }
+.card_5_of_clubs::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 12.544802867383513% 59.98685939553219%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_5_of_clubs::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_5_of_diamonds {max-width:208px; max-height:303px; }
+.card_5_of_diamonds::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 12.544802867383513% 79.96057818659658%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_5_of_diamonds::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_5_of_hearts {max-width:208px; max-height:303px; }
+.card_5_of_hearts::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 12.544802867383513% 99.93429697766098%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_5_of_hearts::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_5_of_spades {max-width:208px; max-height:303px; }
+.card_5_of_spades::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 25.029868578255677% 20.03942181340342%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_5_of_spades::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_6_of_clubs {max-width:208px; max-height:303px; }
+.card_6_of_clubs::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 25.029868578255677% 40.01314060446781%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_6_of_clubs::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_6_of_diamonds {max-width:208px; max-height:303px; }
+.card_6_of_diamonds::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 25.029868578255677% 59.98685939553219%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_6_of_diamonds::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_6_of_hearts {max-width:208px; max-height:303px; }
+.card_6_of_hearts::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 25.029868578255677% 79.96057818659658%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_6_of_hearts::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_6_of_spades {max-width:208px; max-height:303px; }
+.card_6_of_spades::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 25.029868578255677% 99.93429697766098%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_6_of_spades::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_7_of_clubs {max-width:208px; max-height:303px; }
+.card_7_of_clubs::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 37.51493428912784% 20.03942181340342%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_7_of_clubs::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_7_of_diamonds {max-width:208px; max-height:303px; }
+.card_7_of_diamonds::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 50% 20.03942181340342%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_7_of_diamonds::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_7_of_hearts {max-width:208px; max-height:303px; }
+.card_7_of_hearts::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 62.48506571087216% 20.03942181340342%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_7_of_hearts::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_7_of_spades {max-width:208px; max-height:303px; }
+.card_7_of_spades::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 74.97013142174433% 20.03942181340342%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_7_of_spades::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_8_of_clubs {max-width:208px; max-height:303px; }
+.card_8_of_clubs::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 87.45519713261649% 20.03942181340342%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_8_of_clubs::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_8_of_diamonds {max-width:208px; max-height:303px; }
+.card_8_of_diamonds::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 99.94026284348865% 20.03942181340342%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_8_of_diamonds::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_8_of_hearts {max-width:208px; max-height:303px; }
+.card_8_of_hearts::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 37.51493428912784% 40.01314060446781%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_8_of_hearts::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_8_of_spades {max-width:208px; max-height:303px; }
+.card_8_of_spades::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 37.51493428912784% 59.98685939553219%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_8_of_spades::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_9_of_clubs {max-width:208px; max-height:303px; }
+.card_9_of_clubs::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 37.51493428912784% 79.96057818659658%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_9_of_clubs::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_9_of_diamonds {max-width:208px; max-height:303px; }
+.card_9_of_diamonds::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 37.51493428912784% 99.93429697766098%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_9_of_diamonds::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_9_of_hearts {max-width:208px; max-height:303px; }
+.card_9_of_hearts::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 50% 40.01314060446781%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_9_of_hearts::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_9_of_spades {max-width:208px; max-height:303px; }
+.card_9_of_spades::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 62.48506571087216% 40.01314060446781%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_9_of_spades::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_ace_of_clubs {max-width:208px; max-height:303px; }
+.card_ace_of_clubs::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 74.97013142174433% 40.01314060446781%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_ace_of_clubs::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_ace_of_diamonds {max-width:208px; max-height:303px; }
+.card_ace_of_diamonds::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 87.45519713261649% 40.01314060446781%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_ace_of_diamonds::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_ace_of_hearts {max-width:208px; max-height:303px; }
+.card_ace_of_hearts::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 99.94026284348865% 40.01314060446781%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_ace_of_hearts::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_ace_of_spades {max-width:208px; max-height:303px; }
+.card_ace_of_spades::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 50% 59.98685939553219%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_ace_of_spades::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_black_joker {max-width:208px; max-height:303px; }
+.card_black_joker::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 50% 79.96057818659658%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_black_joker::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_jack_of_clubs {max-width:208px; max-height:303px; }
+.card_jack_of_clubs::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 50% 99.93429697766098%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_jack_of_clubs::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_jack_of_diamonds {max-width:208px; max-height:303px; }
+.card_jack_of_diamonds::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 62.48506571087216% 59.98685939553219%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_jack_of_diamonds::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_jack_of_hearts {max-width:208px; max-height:303px; }
+.card_jack_of_hearts::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 62.48506571087216% 79.96057818659658%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_jack_of_hearts::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_jack_of_spades {max-width:208px; max-height:303px; }
+.card_jack_of_spades::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 62.48506571087216% 99.93429697766098%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_jack_of_spades::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_king_of_clubs {max-width:208px; max-height:303px; }
+.card_king_of_clubs::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 74.97013142174433% 59.98685939553219%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_king_of_clubs::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_king_of_diamonds {max-width:208px; max-height:303px; }
+.card_king_of_diamonds::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 87.45519713261649% 59.98685939553219%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_king_of_diamonds::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_king_of_hearts {max-width:208px; max-height:303px; }
+.card_king_of_hearts::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 99.94026284348865% 59.98685939553219%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_king_of_hearts::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_king_of_spades {max-width:208px; max-height:303px; }
+.card_king_of_spades::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 74.97013142174433% 79.96057818659658%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_king_of_spades::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_queen_of_clubs {max-width:208px; max-height:303px; }
+.card_queen_of_clubs::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 74.97013142174433% 99.93429697766098%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_queen_of_clubs::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_queen_of_diamonds {max-width:208px; max-height:303px; }
+.card_queen_of_diamonds::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 87.45519713261649% 79.96057818659658%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_queen_of_diamonds::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_queen_of_hearts {max-width:208px; max-height:303px; }
+.card_queen_of_hearts::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 99.94026284348865% 79.96057818659658%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_queen_of_hearts::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_queen_of_spades {max-width:208px; max-height:303px; }
+.card_queen_of_spades::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 87.45519713261649% 99.93429697766098%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_queen_of_spades::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+.card_red_joker {max-width:208px; max-height:303px; }
+.card_red_joker::after {content: ' ';display: inline-block; width:208px; height:303px; background-position: 99.94026284348865% 99.93429697766098%;background-size: 904.8076923076923% 602.3102310231023%;background-image: url(../img/cards.png);padding: 0; }
+div.card_red_joker::after {max-width:208px; width:100%;height:0;padding: 0 0 145.67307692307693% 0;}
+
+/* $TexturePacker:SmartUpdate:dea695d4869dd4e62eb88530cb9c9518:7acd4d549e8d93847a9fc21752419bcb:a9ba6b51c945505d9db03a2a1865fb96$ */
