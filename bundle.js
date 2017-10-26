@@ -22041,7 +22041,7 @@
 			value: function onClickDraw() {
 				if (this.state.drawCount >= 1 && this.state.drawCount <= this.props.deck.length) {
 					this.props.drawRandomCard(this.state.drawCount);
-					this.setState({ drawCount: this.props.deck.length - this.state.drawCount });
+					if (this.state.drawCount > this.props.deck.length) this.setState({ drawCount: this.props.deck.length - this.state.drawCount });
 				} else if (this.state.drawCount > this.props.deck.length) {
 					this.setState({ drawCount: this.props.deck.length });
 					alert("You can't draw more cards than available");

@@ -1,6 +1,6 @@
 Deck Of cards Exercise
 
-
+Demo: https://lnesi.github.io/DeckofCards/index.html
 
 ### INSTALL
 
