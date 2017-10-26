@@ -11,6 +11,7 @@ describe('DrawTable Component',()=>{
 			deck:AbstractCard.createDeck(), 
 			table:[
 				new AbstractCard("2","diamonds"),
+				new AbstractCard("2","clubs"),
 				new AbstractCard("4","hearts"),
 				new AbstractCard("6","spades"),
 				new AbstractCard("8","clubs")
@@ -31,8 +32,8 @@ describe('DrawTable Component',()=>{
 		expect(component.find(".btn-sort-cards")).to.exist;
 	});
 
-	it('has the correct ammount of cards base on table state (4)',()=>{
-		expect(component.find(".card-holder").find(".card").length).to.equal(4);
+	it('has the correct ammount of cards base on table state (5)',()=>{
+		expect(component.find(".card-holder").find(".card").length).to.equal(5);
 	});
 
 	it('has the ability to sort cards',()=>{
@@ -44,9 +45,10 @@ describe('DrawTable Component',()=>{
 			sorted.push(v.getAttribute('data-name'));
 		});
 		 
-		expect(sorted[0]).to.equal("8_of_clubs");
-		expect(sorted[1]).to.equal("6_of_spades");
+		expect(sorted[4]).to.equal("8_of_clubs");
+		expect(sorted[3]).to.equal("6_of_spades");
 		expect(sorted[2]).to.equal("4_of_hearts");
-		expect(sorted[3]).to.equal("2_of_diamonds");
+		expect(sorted[1]).to.equal("2_of_diamonds");
+		expect(sorted[0]).to.equal("2_of_clubs");
 	});
 });
